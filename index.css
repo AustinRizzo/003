@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+font-family: "Niagara Solid";
+font-size: 100px;
+}
+h2{
+font-family: "Niagara Solid" ;
+font-size: 40px;
+}
+.line-1 {
+  height: 1px;
+	background: black;}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+	text-color: black;
+	font-family: "Niagara Solid";
+	font-size: 40px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+	
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
+
+.boxed {
+  border: 1px solid black ;
+	background-color: black;
+}
+
+p{
+	font-family: "Edwardian Script ITC";
+	font-size: 20px;
+}
