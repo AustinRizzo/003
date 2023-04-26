@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+font-family: "Niagara Solid";
+font-size: 100px;
+}
+h2{
+font-family: "Niagara Solid" ;
+font-size: 40px;
+}
+
+
+.boxed-1 {
+	text-color: white;
+  border: 20px solid black ;
+	background-color: black;
+	}
+
+p{
+	font-family: "Edwardian Script ITC";
+	font-size: 30px;
+	text-color: black;
+}
+ul {
+ list-style-type: none;
+}
+
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav {
+	font-family: "Niagara Solid";
+	font-size: 100px;
+}
+
+.boxed {
+	 border: 2px solid black ;
+	background-color: gray;
+	
+}
